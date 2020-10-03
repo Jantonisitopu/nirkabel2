@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# Keamanan Jaringan Nirkabel
+##Mac Filtering
+Hampir setiap wireless access point maupun router difasilitasi dengan keamanan MAC Filtering. Hal ini sebenarnya tidak banyak membantu dalam mengamankan komunikasi wireless, karena MAC address sangat mudah dispoofing atau bahkan dirubah. Tools ifconfig pada OS Linux/Unix atau beragam tools seperti network utilitis, regedit, smac, machange pada OS windows dengan mudah digunakan untuk spoofing atau mengganti MAC address.
 
-You can use the [editor on GitHub](https://github.com/Jantonisitopu/nirkabel2/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+##WEP (Wired Equivalent Privacy)
+WEP merupakan standar keamanan dan enkripsi pertama yang digunakan pada wireless,WEP(Wired Equivalent Privacy) adalah suatu metoda pengamanan jaringan nirkabel disebut juga dengan Shared Key Authentication.Shared Key Authentication adalah metoda otentikasi yang membutuhkan penggunaan WEP.Enkripsi WEP menggunakan kunci yang dimasukkan oleh administrator ke client maupun Access Point. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jantonisitopu/nirkabel2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##WPA-PSK atau WPA2-PSK
+WPA merupakan teknologi keamanan sementara yang diciptakan untuk menggantikan kunci WEP. Ada dua jenis yakni WPA personal (WPA-PSK), dan WPA-Radius. Saat ini yang sudah dapat dicrack adalah WPA-PSK, yakni dengan metode brute force attack secara offline. Brute force dengan menggunakan mencoba-coba banyak kata dari suatu kamus. Serangan ini akan berhasil jika passphrase yang digunakan wireless tersebut memang terdapat pada kamus kata yang digunakan si hacker.
